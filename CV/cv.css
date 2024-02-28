@@ -1,0 +1,135 @@
+
+*{
+margin: 1px;
+box-sizing: border-box;
+
+}
+
+.container{
+    width: 750px;
+    background-color: rgb(6, 6, 6);
+    margin: auto;
+    line-height: 1.6;
+}
+
+.profileimg{
+    float: left;
+    width: 250px;
+    background-color: #383d44;   
+    margin-bottom: 0; 
+    padding-bottom: 11px;
+}
+.profileimg img{
+    display: block;
+    margin: 0 auto; 
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+}
+
+.nametxt{
+    float: right;
+    width: calc(100% - 255px);   
+    height: 130px;
+    clear: right;
+    text-align: center;
+    /* background-color: #cfcdcd; */
+    background-color: rgb(71, 220, 217);
+    padding-top: 40px;
+    margin: 1px;
+}
+
+
+.nametxt span{
+
+}
+
+
+#leftside{
+    float: left;
+    clear: both;
+    background-color: #383d44;
+    width: 250px;
+    color: white;
+    padding-left: 30px;
+}
+
+.contact{
+padding: 12px;
+
+}
+.contact h2{
+    border: 1px solid rgb(91, 224, 220);
+    background-color: rgb(99, 180, 178);
+}
+
+.education{
+    padding: 12px;
+
+}
+.education h2{
+    border: 1px solid rgb(91, 224, 220);
+    background-color: rgb(99, 180, 178);
+}
+
+
+
+.certi{
+    padding: 12px;
+}
+.certi h2{
+    border: 1px solid rgb(91, 224, 220);
+    background-color: rgb(99, 180, 178);
+}
+
+
+.language{
+    padding: 12px;
+}
+.language h2{
+    border: 1px solid rgb(91, 224, 220);
+    background-color: rgb(99, 180, 178);
+   
+}
+
+
+.rightside{
+    
+    float: right;
+    width: calc(100% - 255px);
+    margin-top: 1px;
+    background-color: whitesmoke;
+    height: 1115px;
+    padding-left: 40px;
+    
+}
+
+.rightside .about{
+    text-align: justify;
+    padding-top: 13px;
+}
+.rightside .project{
+    text-align: justify;
+    padding-top: 13px;
+
+}
+
+/* skill section  */
+
+.skill{
+    line-height: 1;
+}
+.skill h2{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.skill ol{
+padding-left: 13px;
+}
+
+.foot .foot-content{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
