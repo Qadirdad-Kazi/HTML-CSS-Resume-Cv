@@ -9,7 +9,7 @@ box-sizing: border-box;
     width: 750px;
     background-color: rgb(6, 6, 6);
     margin: auto;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 .profileimg{
@@ -30,12 +30,12 @@ box-sizing: border-box;
 .nametxt{
     float: right;
     width: calc(100% - 255px);   
-    height: 130px;
+    height: 90px;
     clear: right;
     text-align: center;
     /* background-color: #cfcdcd; */
     background-color: rgb(71, 220, 217);
-    padding-top: 40px;
+    padding-top: 10px;
     margin: 1px;
 }
 
@@ -97,9 +97,9 @@ padding: 12px;
     
     float: right;
     width: calc(100% - 255px);
-    margin-top: 1px;
+    margin-top: -40px;
     background-color: whitesmoke;
-    height: 1115px;
+    height: 865px;
     padding-left: 40px;
     
 }
@@ -118,18 +118,45 @@ padding: 12px;
 
 .skill{
     line-height: 1;
+    width: 25%;
+    float: left;
+    clear: left;
+    height: 10%;
 }
 .skill h2{
-    padding-top: 15px;
+    
     padding-bottom: 8px;
+    
 }
-.skill ol{
+.skill ul{
 padding-left: 13px;
 }
 
-.foot .foot-content{
-    text-align: center;
-    padding-top: 150px;
+
+.rightskill{
+    line-height: 1;
+    float: left;
+    clear: right;
+    width: 30%;
+    height: 10%;
+    padding-top: 32px;
+}
+.rightskill ul{
+    
+}
+
+.foot{
+    float: right;
+    clear: right;
+    width: 495px;
+    height: 58px;
+    background-color: whitesmoke;
+
 }
 
 
+.foot .foot-content{
+    text-align: center;
+
+   
+}
